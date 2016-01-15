@@ -1,0 +1,96 @@
+/*CSS stylesheet */
+
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    html {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      position: relative;
+      background-color: #47c0ee;
+      background-image: -moz-linear-gradient(top, #01adee, #94d5ee);
+      background-image: -ms-linear-gradient(top, #01adee, #94d5ee);
+      background-image: -o-linear-gradient(top, #01adee, #94d5ee);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#01adee), to(#94d5ee));
+      background-image: -webkit-linear-gradient(top, #01adee, #94d5ee);
+      background-image: linear-gradient(top, #01adee, #94d5ee);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#01adee', EndColorStr='#94d5ee');
+      height: 100%;
+      overflow: hidden;
+    }
+    .shell {
+      position: relative;
+      height: 800px;
+      width: 1000px;
+      margin: 0 auto;
+    }
+    .cloud-1,
+    .cloud-2,
+    .cloud-3,
+    .cloud-4,
+    .cloud-5,
+    .cloud-6,
+    .cloud-7,
+    .cloud-8,
+    .cloud-9 {
+      position: absolute;
+    }
+    .cloud-1 {
+      top: 250px;
+      left: 250px;
+      z-index: 10;
+    }
+    .cloud-2 {
+      top: 200px;
+      left: -100px;
+      z-index: 9;
+    }
+    .cloud-3 {
+      top: 100px;
+      left: 800px;
+      z-index: 8;
+    }
+    .gh-cloud {
+      position: absolute;
+      margin: 100px -250px 0 0;
+      z-index: 8;
+      height: 134px;
+      width: 500px;
+      top: 50%;
+      right: 50%;
+    }
+    .cloud-4 {
+      top: 600px;
+      left: 600px;
+      z-index: 6;
+    }
+    .cloud-5 {
+      top: 700px;
+      left: 300px;
+      z-index: 5;
+    }
+    .cloud-6 {
+      top: 600px;
+      left: 0px;
+      z-index: 4;
+    }
+    .cloud-7 {
+      top: 700px;
+      left: -150px;
+      z-index: 3;
+    }
+    .cloud-8 {
+      top: 750px;
+      left: 1000px;
+      z-index: 2;
+    }
+    .cloud-9 {
+      top: 900px;
+      left: 800px;
+      z-index: 1;
+    }
+
